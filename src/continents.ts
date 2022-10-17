@@ -44,3 +44,45 @@ export const OCEANIA: Continent = {
     pctOfTotal: 0.54,
   },
 };
+
+export const AFRICA: Continent = {
+  name: "Africa",
+  area: {
+    sqKm: 30_365_000,
+    sqMiles: 11_724_000,
+    pctOfTotal: 20.3,
+  },
+  highestPoint: "Mount Kilimanjaro",
+  population: {
+    people: { count: 1.3, unit: "billion" },
+    pctOfTotal: 17,
+  },
+};
+
+export const ANTARCTICA: Continent = {
+  name: "Antarctica",
+  area: {
+    sqKm: 14_200_000,
+    sqMiles: 5_500_000,
+    pctOfTotal: 9.5,
+  },
+  highestPoint: "Vinson Massif",
+  population: {
+    people: { count: 0 },
+    pctOfTotal: 0,
+  },
+};
+
+export const SOUTHAMERICA: Continent = {
+  name: "South America",
+  area: {
+    sqKm: 17_814_000,
+    sqMiles: 6_878_000,
+    pctOfTotal: 11.9,
+  },
+  highestPoint: "Aconcagua",
+  population: {
+    people: { count: 420, unit: "million" },
+    pctOfTotal: 5.6,
+  },
+};
